@@ -34,6 +34,16 @@ export default function USChinaVisaFreePage() {
               US citizens can <strong>transit through China without a visa</strong> for up to <strong>144 hours (6 days)</strong> when traveling to a third country.
             </p>
 
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg mb-6">
+              <h3 className="font-bold text-green-800 text-xl mb-3">🌍 54 Eligible Countries</h3>
+              <p className="text-gray-700 mb-3">
+                The 144-hour visa-free transit policy applies to citizens of <strong>54 countries</strong>, including the US, UK, Canada, Australia, EU nations, and more.
+              </p>
+              <a href="/visa/144-hour-countries-list" className="text-green-700 hover:text-green-900 font-semibold inline-flex items-center gap-2">
+                View Complete List →
+              </a>
+            </div>
+
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-6">
               <h3 className="font-bold text-blue-800 text-xl mb-3">✅ Example Route:</h3>
               <p className="text-gray-700">

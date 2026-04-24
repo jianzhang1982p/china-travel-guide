@@ -1,3 +1,17 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Best eSIM for China Travel (2026)',
+  description: 'Compare best eSIMs for China travel. Airalo vs Nomad vs China Unicom. Bypass Great Firewall without VPN. Complete buying guide for 2026.',
+  keywords: ['China eSIM', 'best eSIM for China', 'Airalo China', 'China Unicom eSIM', 'China data plan', 'bypass Great Firewall'],
+  openGraph: {
+    title: 'Best eSIM for China Travel 2026 - Complete Comparison',
+    description: 'Compare best eSIMs for China travel. Airalo, Nomad, China Unicom. Bypass Great Firewall.',
+    url: 'https://thechinatravelguide.com/internet/best-esim-for-china',
+    type: 'website',
+  },
+}
+
 export default function BestESimPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-purple-50 to-white">

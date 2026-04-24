@@ -1,3 +1,17 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'How to Setup Alipay as a Foreigner',
+  description: 'Step-by-step guide to setup Alipay with international credit card. Complete tutorial for foreigners traveling to China. Updated for 2026.',
+  keywords: ['Alipay for foreigners', 'Alipay international card', 'Alipay setup guide', 'China payment app', 'Alipay visa mastercard'],
+  openGraph: {
+    title: 'How to Setup Alipay as a Foreigner - Complete Guide',
+    description: 'Step-by-step guide to setup Alipay with international credit card.',
+    url: 'https://thechinatravelguide.com/payment/how-to-setup-alipay',
+    type: 'website',
+  },
+}
+
 export default function AlipayPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">

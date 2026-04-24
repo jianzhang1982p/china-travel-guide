@@ -1,3 +1,17 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'China Visa-Free Policy 2026',
+  description: 'Complete guide to China visa-free transit policy for 2026. 144-hour visa-free transit for 54 countries, visa-free countries list, and requirements.',
+  keywords: ['China visa free', '144 hour visa free China', 'China transit visa', 'China visa policy 2026', 'China visa requirements'],
+  openGraph: {
+    title: 'China Visa-Free Policy 2026 - Complete Guide',
+    description: 'Complete guide to China visa-free transit policy. 144-hour visa-free for 54 countries.',
+    url: 'https://thechinatravelguide.com/visa',
+    type: 'website',
+  },
+}
+
 export default function VisaPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-amber-50 to-white">

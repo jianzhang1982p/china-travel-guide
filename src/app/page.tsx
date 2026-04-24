@@ -1,3 +1,18 @@
+import Link from 'next/link'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home - China Travel Guide',
+  description: 'Complete travel guide for foreigners visiting China. Visa-free policy, Alipay setup, WeChat Pay, eSIM recommendations, and high-speed rail booking. Everything you need for 2026.',
+  keywords: ['China travel guide', 'China visa free', 'Alipay for foreigners', 'WeChat Pay setup', 'China eSIM', 'China train booking'],
+  openGraph: {
+    title: 'China Travel Guide - Essential Tips for Foreigners',
+    description: 'Complete travel guide for foreigners visiting China. Updated for 2026.',
+    url: 'https://thechinatravelguide.com',
+    type: 'website',
+  },
+}
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
@@ -434,6 +449,13 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+
+            <a href="/transport/high-speed-rail-booking" className="mt-6 inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
+              📖 Full High-Speed Rail Booking Guide
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
 
           {/* Quick Comparison */}

@@ -1,3 +1,17 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'How to Setup WeChat Pay as a Foreigner',
+  description: 'Complete guide to setup WeChat Pay with international credit card. Step-by-step tutorial for foreigners in China. 2026 updated.',
+  keywords: ['WeChat Pay for foreigners', 'WeChat Pay international card', 'WeChat Pay setup', 'China mobile payment', 'WeChat Pay visa'],
+  openGraph: {
+    title: 'How to Setup WeChat Pay as a Foreigner',
+    description: 'Complete guide to setup WeChat Pay with international credit card.',
+    url: 'https://thechinatravelguide.com/payment/wechat-pay-foreigners',
+    type: 'website',
+  },
+}
+
 export default function WeChatPayPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-green-50 to-white">
