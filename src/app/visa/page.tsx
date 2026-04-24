@@ -113,6 +113,16 @@ export default function VisaPage() {
               Citizens of <strong>54 countries</strong> can transit through China without a visa for up to <strong>144 hours (6 days)</strong>.
             </p>
 
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg mb-6">
+              <h3 className="font-bold text-green-800 text-xl mb-3">🌍 See Complete Countries List</h3>
+              <p className="text-gray-700 mb-3">
+                Check if your country is eligible for 144-hour visa-free transit. Full list includes US, UK, Canada, Australia, all EU nations, and more.
+              </p>
+              <a href="/visa/144-hour-countries-list" className="text-green-700 hover:text-green-900 font-semibold inline-flex items-center gap-2">
+                View All 54 Countries →
+              </a>
+            </div>
+
             <h3 className="text-xl font-semibold text-blue-600 mb-4">📋 Requirements</h3>
             <div className="grid md:grid-cols-3 gap-4 mb-8">
               <div className="border-2 border-blue-200 rounded-lg p-4">
