@@ -1,10 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <!-- 红色圆形背景 -->
-  <circle cx="50" cy="50" r="50" fill="#DC2626"/>
+  <circle cx="256" cy="256" r="256" fill="#DC2626"/>
   
-  <!-- 指南针/方向图标 - 白色，更明显 -->
-  <path d="M50 15 L56 42 L85 50 L56 58 L50 85 L44 58 L15 50 L44 42 Z" fill="#FFFFFF"/>
+  <!-- "china guide" 文字 -->
+  <text x="256" y="180" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF" text-anchor="middle">china</text>
+  <text x="256" y="260" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF" text-anchor="middle">guide</text>
   
-  <!-- 中心点 - 白色小圆 -->
-  <circle cx="50" cy="50" r="6" fill="#FFFFFF"/>
+  <!-- 旅行者剪影 -->
+  <g transform="translate(256, 380)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-80" r="25" fill="#FFFFFF"/>
+    <!-- 身体 -->
+    <path d="M-20,-55 L20,-55 L30,20 L-30,20 Z" fill="#FFFFFF"/>
+    <!-- 腿 -->
+    <path d="M-15,20 L-25,80 M15,20 L25,80" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+    <!-- 手臂 -->
+    <path d="M-20,-40 L-40,10 M20,-40 L40,10" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+    <!-- 背包 -->
+    <path d="M-25,-50 Q-45,-50 -45,-30 Q-45,-10 -25,-10" fill="#FFFFFF"/>
+    <!-- 行李箱 -->
+    <rect x="-60" y="30" width="35" height="50" rx="5" fill="#FFFFFF"/>
+    <line x1="-42" y1="30" x2="-42" y2="80" stroke="#DC2626" stroke-width="3"/>
+    <circle cx="-55" cy="85" r="5" fill="#FFFFFF"/>
+    <circle cx="-30" cy="85" r="5" fill="#FFFFFF"/>
+    <!-- 行李箱把手 -->
+    <path d="M-55,30 L-55,20 L-30,20 L-30,30" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+  </g>
 </svg>

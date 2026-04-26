@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "YOUR_TEAM_ID.com.chinatravelguide.app",
+        "paths": ["NOT /_next/static/*", "NOT /_next/image/*", "/*"]
+      }
+    ]
+  }
+}
