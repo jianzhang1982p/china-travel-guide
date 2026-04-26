@@ -19,7 +19,10 @@ export default function Home() {
       {/* Hero Section */}
       <header className="bg-red-700 text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">🇨🇳 China Travel Guide</h1>
+          <h1 className="text-5xl font-bold mb-6 flex items-center justify-center gap-3">
+            <img src="/logo.svg" alt="Logo" className="inline-block h-12 w-12 align-middle" />
+            China Travel Guide
+          </h1>
           <p className="text-xl mb-8 opacity-90">
             Everything foreigners need to know before traveling to China
           </p>
