@@ -20,7 +20,7 @@ export default function Home() {
       <header className="bg-red-700 text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6 flex items-center justify-center gap-3">
-            <img src="/logo.png" alt="Logo" className="inline-block h-20 w-20 align-middle" />
+            <img src="/logo.png" alt="Logo" className="inline-block h-32 w-32 align-middle" style={{ width: '120px', height: '120px' }} />
             China Travel Guide
           </h1>
           <p className="text-xl mb-8 opacity-90">
