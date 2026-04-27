@@ -3,27 +3,27 @@
   <circle cx="256" cy="256" r="256" fill="#DC2626"/>
   
   <!-- "china guide" 文字 -->
-  <text x="256" y="160" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" text-anchor="middle">china</text>
-  <text x="256" y="230" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" text-anchor="middle">guide</text>
+  <text x="256" y="150" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="#FFFFFF" text-anchor="middle">china</text>
+  <text x="256" y="215" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="#FFFFFF" text-anchor="middle">guide</text>
   
-  <!-- 旅行者剪影 - 更精确的版本 -->
-  <g transform="translate(256, 360)">
+  <!-- 旅行者剪影 -->
+  <g transform="translate(256, 340)">
     <!-- 头部 -->
-    <circle cx="0" cy="-60" r="22" fill="#FFFFFF"/>
+    <circle cx="0" cy="-50" r="18" fill="#FFFFFF"/>
     <!-- 身体 -->
-    <path d="M-18,-38 L18,-38 L25,35 L-25,35 Z" fill="#FFFFFF"/>
+    <path d="M-15,-32 L15,-32 L20,30 L-20,30 Z" fill="#FFFFFF"/>
     <!-- 腿 -->
-    <path d="M-12,35 L-22,90 M12,35 L22,90" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+    <path d="M-10,30 L-18,75 M10,30 L18,75" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
     <!-- 手臂 -->
-    <path d="M-18,-25 L-35,20 M18,-25 L35,20" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-15,-20 L-28,15 M15,-20 L28,15" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
     <!-- 背包 -->
-    <path d="M-22,-35 Q-42,-35 -42,-15 Q-42,5 -22,5" fill="#FFFFFF"/>
+    <path d="M-18,-30 Q-32,-30 -32,-12 Q-32,5 -18,5" fill="#FFFFFF"/>
     <!-- 行李箱 -->
-    <rect x="-55" y="45" width="32" height="45" rx="4" fill="#FFFFFF"/>
-    <line x1="-39" y1="45" x2="-39" y2="90" stroke="#DC2626" stroke-width="2"/>
-    <circle cx="-50" cy="93" r="4" fill="#FFFFFF"/>
-    <circle cx="-28" cy="93" r="4" fill="#FFFFFF"/>
+    <rect x="-45" y="35" width="28" height="40" rx="3" fill="#FFFFFF"/>
+    <line x1="-31" y1="35" x2="-31" y2="75" stroke="#DC2626" stroke-width="2"/>
+    <circle cx="-40" cy="78" r="3" fill="#FFFFFF"/>
+    <circle cx="-22" cy="78" r="3" fill="#FFFFFF"/>
     <!-- 行李箱把手 -->
-    <path d="M-50,45 L-50,35 L-28,35 L-28,45" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+    <path d="M-40,35 L-40,28 L-22,28 L-22,35" stroke="#FFFFFF" stroke-width="3" fill="none"/>
   </g>
 </svg>
