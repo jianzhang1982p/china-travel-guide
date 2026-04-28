@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "YOUR_TEAM_ID.com.chinatravelguide.app",
+        "appID": "TBAG3QXU57.com.chinatravelguide.app",
         "paths": ["NOT /_next/static/*", "NOT /_next/image/*", "/*"]
       }
     ]
