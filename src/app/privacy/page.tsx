@@ -1,15 +1,6 @@
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-
-export const metadata = {
-  title: 'Privacy Policy | China Travel Guide',
-  description: 'Privacy policy for China Travel Guide app and website.',
-};
-
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
       <main className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
 
@@ -94,7 +85,6 @@ export default function PrivacyPage() {
           <p className="text-sm text-gray-500">Last updated: April 30, 2026</p>
         </div>
       </main>
-      <Footer />
     </div>
   );
 }
